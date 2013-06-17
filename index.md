@@ -15,3 +15,5 @@ I write posts here infrequently.
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+[Archive >>]({{ site.JB.archive_path }})
