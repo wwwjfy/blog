@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: "MPlayerX on Mavericks"
-category:
+categories:
 - Works
 tags:
 - mplayerx
