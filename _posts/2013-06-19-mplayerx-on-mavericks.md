@@ -19,4 +19,4 @@ So, the problem is that a value was used before it was initialized, and it was d
 
 The patch is [here](https://github.com/wwwjfy/MPlayerX/commit/b163a10a9e2ed2a0b13557727a7b3832b100052e), also I committed some possible fixes in the repository.
 
-The workable version can be downloaded [here](https://copy.com/vKS7FuBIpJIZ ), with the [dSYM](https://copy.com/GJblo3iSUahy).
+The workable version can be downloaded on [Copy.com](https://copy.com/vKS7FuBIpJIZ), or [MediaFire](http://www.mediafire.com/?k36mvhaapajocy8), with the [dSYM](https://copy.com/GJblo3iSUahy).
