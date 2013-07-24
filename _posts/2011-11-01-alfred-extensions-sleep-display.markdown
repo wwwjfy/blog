@@ -19,7 +19,7 @@ The code to generate the binary is from [Command to Sleep Display OSX](http://st
 
 	#include <CoreFoundation/CoreFoundation.h>
 	#include <IOKit/IOKitLib.h>
-	
+
 	/* Returns 0 on success and 1 on failure. */
 	int display_sleep(void)
 	{
@@ -39,5 +39,7 @@ Well, it's easy to use: just type the keyword, and hit Enter.
 ~~What I hope is Alfred 1.0 to support Global Hotkeys for extensions.~~
 
 Oh, forgot to say, [Download it here](http://wwwjfy.net/tools/SleepDisplay.alfredextension).
+
+**Update** I've seen some searches for a version for Alfred 2 directed here, so [here is the one](http://wwwjfy.net/tools/SleepDisplay.alfredworkflow).
 
 PS, [PadLock](http://itunes.apple.com/us/app/padlock/id415667090?mt=12) is another app doing the same thing costing $2.99. The other feature of the app is to give you the buffer to cancel the lock operation, useful also.
