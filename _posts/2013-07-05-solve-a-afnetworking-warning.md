@@ -30,4 +30,4 @@ After [grep](https://github.com/ggreer/the_silver_searcher) all the frameworks (
 
 I was right. After cleaning the app cache directory in ~/Library/Caches, it works well now.
 
-No idea if it's a usual error, but it's definately a bad way to show the warning. Either recover it yourself, or specify what the hell is wrong explicity.
+No idea if it's a usual error, but it's definately a bad way to show the warning. Either recover it yourself, or specify what the hell is wrong explicitly.
