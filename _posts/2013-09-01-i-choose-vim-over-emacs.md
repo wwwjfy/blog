@@ -52,10 +52,10 @@ the basic navigation keys every day.
     just _wrong_. Now I can do nothing but use backspace to delete the white
     space one by one.
 
-  - There is a feature called auto-save. It generates files named #<filename>#,
-    just like <filename>~ in Vim. I want to have it in one unique directory,
-    instead of spreading all around. No, setting `backup-directory-alist`
-    doesn't work, though it claims to.
+  - There is a feature called auto-save. It generates files named
+    #\<filename\>#, just like \<filename\>~ in Vim. I want to have it in one
+    unique directory, instead of spreading all around. No, setting
+    `backup-directory-alist` doesn't work, though it claims to.
 
   - There are some other small but annoying details.
 
