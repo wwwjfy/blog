@@ -38,7 +38,7 @@ the basic navigation keys every day.
   files in two projects and I want to switch to another buffer, I have to go
   through a long mixed list to get there. That's a real pain in ass. Any
   workaround need extra step which I hate to do when it's supposed I shouldn't
-  need to.
+  need to. (Now I think maybe the best way is one instance for a project.)
 
 - It's a bit difficult to get it work as I like. I had to spend quite some time
   learning how it works to get something to follow my mind. And I cannot work
