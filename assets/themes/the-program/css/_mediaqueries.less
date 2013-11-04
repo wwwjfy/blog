@@ -77,8 +77,7 @@
 			.nav-global {
 				li {
 					float: left;
-					border: 1px solid rgba(0, 0, 0, 0.05);
-					border-width: 0 1px 0 0;
+                    padding-right: 10px;
 					a, div {
 						display: block;
 						height: 26px;
@@ -89,8 +88,8 @@
 						color: lighten(@main-font-color, 10%);
 					}
 				}
-				li:nth-child(2) { border-width: 0 1px; }
-				li:last-child { border-width: 0; }
+				li:nth-child(2) { padding: 0 10px; }
+				li:last-child { padding-right: 0; }
 				.logo {
 					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 					border-right: none 0;
@@ -102,6 +101,10 @@
 					}
 					a:hover { background-color: transparent; }
 				}
+                .tagline {
+                    text-align: left;
+                    width: 100%;
+                }
 			}
 		}
 	} // the-header

@@ -598,8 +598,7 @@ No styleguide reference.
   }
   .the-header .unit-head .nav-global li {
     float: left;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-width: 0 1px 0 0;
+    padding-right: 10px;
   }
   .the-header .unit-head .nav-global li a,
   .the-header .unit-head .nav-global li div {
@@ -611,10 +610,10 @@ No styleguide reference.
     color: #474747;
   }
   .the-header .unit-head .nav-global li:nth-child(2) {
-    border-width: 0 1px;
+    padding: 0 10px;
   }
   .the-header .unit-head .nav-global li:last-child {
-    border-width: 0;
+    padding-right: 0;
   }
   .the-header .unit-head .nav-global .logo {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -628,6 +627,10 @@ No styleguide reference.
   }
   .the-header .unit-head .nav-global .logo a:hover {
     background-color: transparent;
+  }
+  .the-header .unit-head .nav-global .tagline {
+    text-align: left;
+    width: 100%;
   }
 }
 /*
