@@ -32,6 +32,13 @@ description: ""
   - Abandoned. I use [Keyboard Maestro](http://keyboardmaestro.com) now
 
 
+#### iOS ####
+
+- [iPhone SMS Restore](https://github.com/wwwjfy/iPhoneSMSBackupRestore)
+
+  - Import SMS from a csv file to iPhone
+
+
 #### Sublime Text ####
 
 - [GoCodeSublime](https://github.com/wwwjfy/GoCodeSublime)
