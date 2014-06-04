@@ -58,3 +58,10 @@ saying things are missing.
 
 Actually the path is not complete, without pathes with brew. I don't know how it
 works before, but adding argument `--env=std` fixed the problem.
+
+### DNS cache ###
+
+Previously, I used `sudo killall -HUP mDNSResponder` to flush dns caches, but
+somehow mDNSResponder doesn't get started, so I found the new tool
+`discoveryutil`, and to flush dns caches, use
+`sudo discoveryutil mdnsflushcache`.
