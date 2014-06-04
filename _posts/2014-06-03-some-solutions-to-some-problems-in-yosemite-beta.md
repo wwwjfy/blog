@@ -50,3 +50,11 @@ sudo launchctl kickstart system/homebrew.mxcl.dnsmasq
 ```
 
 `system` is the domain, which is needed for processes to be run as root.
+
+### Homebrew ###
+
+Some weird issue after fixing the ruby version and installing command line tool,
+saying things are missing.
+
+Actually the path is not complete, without pathes with brew. I don't know how it
+works before, but adding argument `--env=std` fixed the problem.
