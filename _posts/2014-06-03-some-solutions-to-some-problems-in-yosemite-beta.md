@@ -65,3 +65,8 @@ Previously, I used `sudo killall -HUP mDNSResponder` to flush dns caches, but
 somehow mDNSResponder doesn't get started, so I found the new tool
 `discoveryutil`, and to flush dns caches, use
 `sudo discoveryutil mdnsflushcache`.
+
+### Audio doesn't work after sleep and wake ###
+
+`sudo killall coreaudiod` to restart audio deamon, but iTunes has to be
+restarted to make sound.
