@@ -51,6 +51,29 @@ sudo launchctl kickstart system/homebrew.mxcl.dnsmasq
 
 `system` is the domain, which is needed for processes to be run as root.
 
+__update__: Thanks to [Chuong Dang](chuong.php@gmail.com), there is a way to run
+it at boot. It's to add `RunAtLoad` to the plist.
+
+The plist will be
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>homebrew.mxcl.dnsmasq</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/opt/dnsmasq/sbin/dnsmasq</string>
+        <string>--keep-in-foreground</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
+```
+
 ### Homebrew ###
 
 Some weird issue after fixing the ruby version and installing command line tool,
