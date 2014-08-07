@@ -93,3 +93,9 @@ somehow mDNSResponder doesn't get started, so I found the new tool
 
 `sudo killall coreaudiod` to restart audio deamon, but iTunes has to be
 restarted to make sound.
+
+### Ctrl+number doesn't work to switch desktops ###
+
+`killall Dock` would do the trick.
+
+_note_: minimized windows will appear.
