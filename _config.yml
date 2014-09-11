@@ -87,7 +87,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : flowing-main
+      short_name : initialcommit
     livefyre :
       site_id : 123
     intensedebate :
