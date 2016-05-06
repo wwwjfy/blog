@@ -4,7 +4,7 @@ title: Initial Commit
 ---
 {% include JB/setup %}
 
-I'm a developer in Beijing. I use Mac, am interested in #python, #golang, #c, #objc.
+I'm a developer in Beijing. I use Mac, am interested in #python, #c, #objc, #swift, #OS.
 
 I write posts here infrequently.
 
