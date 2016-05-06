@@ -1382,6 +1382,9 @@ pre {
 .unit-article .unit-foot .gotop {
   margin-bottom: 0;
 }
+.unit-article code.highlighter-rouge {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 /* post & page */
 .layout-page .tag_box {
   background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
