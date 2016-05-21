@@ -1,41 +1,15 @@
+title: Initial Commit
+tagline: Listen, Learn.
+email: wwwjfy@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.wwwjfy.net" # the base hostname & protocol for your site
+author: Tony Wang
+twitter_username: wwwjfy
+github_username: wwwjfy
+
+# Build settings
+markdown: kramdown
 permalink: /:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-safe: true
-
-markdown: kramdown
-
-title : Initial Commit
-tagline: Listen, Learn.
-author :
-  name : Tony Wang
-  email : wwwjfy@gmail.com
-  github : wwwjfy
-  twitter : wwwjfy
-
-production_url : https://blog.wwwjfy.net
-atom_path : /atom.xml
-rss_path : /rss.xml
-
-JB :
-  version : 0.3.0
-
-  BASE_PATH : false
-
-  ASSET_PATH : false
-
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
-
-  comments :
-    provider : disqus
-    disqus :
-      short_name : initialcommit
-
-  analytics :
-    provider : google
-    google :
-      tracking_id : 'UA-21631590-1'
+google_analytics_tracking_id: 'UA-21631590-1'
+disqus_shortname: 'initialcommit'

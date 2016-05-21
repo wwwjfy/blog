@@ -5,7 +5,7 @@ layout: post
 slug: "a-pit-when-upgrading-to-python-3"
 title: "A pit when upgrading to Python 3"
 categories:
-- tips
+- Tips
 tags:
 - Python 3
 ---

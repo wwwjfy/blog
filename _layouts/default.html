@@ -1,6 +1,29 @@
----
-theme :
-  name : the-program
----
-{% include JB/setup %}
-{% include themes/the-program/default.html %}
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <!-- Google Analytics -->
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

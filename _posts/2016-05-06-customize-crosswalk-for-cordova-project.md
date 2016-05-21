@@ -5,7 +5,7 @@ layout: post
 slug: "customize-crosswalk-for-cordova-project"
 title: "Customize Crosswalk for Cordova project"
 categories:
-- tips
+- Tips
 tags:
 - xwalk
 - crosswalk
