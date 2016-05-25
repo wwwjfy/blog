@@ -1,0 +1,22 @@
+#!/bin/bash
+
+title=$1
+if [ -z "$title" ]; then
+    echo "ERROR: Title is necessary"
+    exit 1
+fi
+date=$(date "+%Y-%m-%d")
+slug=$(echo ${title} | awk '{gsub(/ /, "-"); print tolower($0)}')
+path=$(echo _posts/${date}-${slug}.md)
+echo "---" > $path
+echo "date: \"$(date "+%Y-%m-%d %H:%M:%S %z")\"" >> $path
+echo "layout: post" >> $path
+echo "slug: \"${slug}\"" >> $path
+echo "title: \"${title}\"" >> $path
+echo "categories:" >> $path
+echo "- " >> $path
+echo "tags:" >> $path
+echo "- " >> $path
+echo "---" >> $path
+echo "" >> $path
+echo "new post generated as $path"
