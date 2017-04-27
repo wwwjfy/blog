@@ -8,3 +8,7 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+.sass-cache
+_posts/.md_configs.data
+_posts/.me_configs.data
