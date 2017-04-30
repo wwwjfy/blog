@@ -19,6 +19,7 @@ layout: default
   {% if page.tags.size > 0 %}<div>Tags: {% for tag in page.tags %}<a href="{{ "/tags" | prepend: site.baseurl }}#{{ tag }}-ref">{{ tag }}</a>&nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}</div>{% endif %}
 </div>
 
+{% if jekyll.environment == 'production' %}
 <div id="disqus_thread"></div>
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -31,3 +32,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
