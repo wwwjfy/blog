@@ -6,7 +6,7 @@ if [ -z "$title" ]; then
     exit 1
 fi
 date=$(date "+%Y-%m-%d")
-slug=$(echo "${title}" | awk '{gsub(/ /, "-"); print tolower($0)}')
+slug=$(echo "${title}" | awk '{gsub(/[: ]+/, "-"); print tolower($0)}')
 path="_posts/${date}-${slug}.md"
 {
     echo "---"
