@@ -1,24 +1,26 @@
-#!/bin/bash
+#!/usr/bin/env fish
 
-title=$1
-if [ -z "$title" ]; then
+set -l title $argv[1]
+if test -z "$title"
     echo "ERROR: Title is necessary"
     exit 1
-fi
-date=$(date "+%Y-%m-%d")
-slug=$(echo "${title}" | awk '{gsub(/[: ]+/, "-"); print tolower($0)}')
-path="_posts/${date}-${slug}.md"
-{
-    echo "---"
-    echo "date: \"$(date "+%Y-%m-%d %H:%M:%S %z")\""
-    echo "layout: post"
-    echo "slug: \"${slug}\""
-    echo "title: \"${title}\""
-    echo "categories:"
-    echo "- "
-    echo "tags:"
-    echo "- "
-    echo "---"
-    echo ""
-} > "$path"
+end
+
+set -l date (date "+%Y-%m-%d")
+set -l detail_date (date "+%Y-%m-%d %H:%M:%S %z")
+set -l slug (echo "$title" | awk '{gsub(/[: ]+/, "-"); print tolower($0)}')
+set -l path "_posts/$date-$slug.md"
+set -l content "---
+date: \"$detail_date\"
+layout: post
+slug: \"$slug\"
+title: \"$title\"
+categories:
+- 
+tags:
+- 
+---
+
+"
+echo $content > "$path"
 echo "new post generated as $path"
