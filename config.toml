@@ -1,0 +1,57 @@
+languageCode = "en-us"
+title = "Initial Commit"
+theme = "ezhil"
+rssLimit = 10
+
+googleAnalytics = "UA-21631590-1"
+disqusShortname = "initialcommit"
+
+pygmentsCodefences = true
+
+[params]
+    subtitle = "*Listen, Learn.*"
+    mainSections = ["posts"]
+    disableDisqusTypes = ["page"]
+
+[permalinks]
+    posts = "/:year/:month/:day/:title/"
+
+[[menu.main]]
+    name = "All posts"
+    url = "/posts"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[[params.social]]
+    name = "Github"
+    icon = "github"
+    url = "https://github.com/wwwjfy"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "twitter"
+    url = "https://twitter.com/wwwjfy"
+
+[[params.social]]
+    name = "RSS"
+    icon = "rss"
+    url = "/rss.xml"
+
+[taxonomies]
+    tag = "tags"
+
+[outputs]
+    home = ["HTML", "RSS"]
+    page = ["HTML"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    taxonomyTerm = ["HTML"]
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediatype = "application/rss"
+        baseName = "rss"

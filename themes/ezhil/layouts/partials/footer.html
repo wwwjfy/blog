@@ -1,0 +1,18 @@
+<div class="footer wrapper">
+	<nav class="nav">
+    <ul class="flat">
+      <li><span class="name">Tony Wang</span></li>
+      <li><a href="mailto:wwwjfy@gmail.com">wwwjfy@gmail.com</a></li>
+      <li class="social">
+      {{- range $index, $key := .Site.Params.Social -}}
+      <a href="{{ $key.url }}" title="{{ $key.Name }}"><i data-feather="{{ $key.icon }}"></i></a>
+      {{- end -}}
+      </li>
+    </ul>
+	</nav>
+</div>
+
+{{ template "_internal/google_analytics_async.html" . }}
+{{- with .Site.Params.Social -}}
+<script>feather.replace()</script>
+{{- end -}}
