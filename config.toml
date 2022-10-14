@@ -3,7 +3,6 @@ title = "Initial Commit"
 theme = "ezhil"
 rssLimit = 10
 
-googleAnalytics = "UA-21631590-1"
 disqusShortname = "initialcommit"
 
 pygmentsCodefences = true
