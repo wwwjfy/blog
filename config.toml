@@ -3,14 +3,11 @@ title = "Initial Commit"
 theme = "ezhil"
 rssLimit = 10
 
-disqusShortname = "initialcommit"
-
 pygmentsCodefences = true
 
 [params]
     subtitle = "*Listen, Learn.*"
     mainSections = ["posts"]
-    disableDisqusTypes = ["page"]
 
 [permalinks]
     posts = "/:year/:month/:day/:title/"

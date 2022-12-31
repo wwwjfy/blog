@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: MPlayerX on Mavericks
 categories: ['Works']
-tags: ['mplayerx', 'mavericks', 'os x', 10.9]
+tags: ['mplayerx', 'mavericks', 'os x']
 date: "2013-06-19"
 ---
 
