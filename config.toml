@@ -45,7 +45,6 @@ pygmentsCodefences = true
     page = ["HTML"]
     section = ["HTML"]
     taxonomy = ["HTML"]
-    taxonomyTerm = ["HTML"]
 
 [outputFormats]
     [outputFormats.RSS]
